@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD74962F-6FDF-A7E4-BBAE-CF42B685656E" name="gs_interacoes_chatbot">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 14:14:27 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="interacao_id" id="8CDBBBC8-B1F6-8B3A-E537-67F6F0305222">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 14:15:17 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="interacao_pergunta" id="32488F70-DA76-EAD5-840F-EAFC0BA892D3">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 14:18:11 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="interacao_resposta" id="741346F8-9E98-B299-0034-2CEF41E35BF3">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 14:18:11 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="interacao_data" id="9D112099-459F-A2BB-74E0-6E2427DCBEC5">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 14:18:11 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="chatbot_id" id="9D6AED7E-D65D-F2EC-DE7B-F30B22D44C60">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 14:51:56 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D772984-F878-07CE-1FF3-D8922D46935F" referredColumn="F3CE696A-3A4D-7167-1042-9C3318769249"/>
+</associations>
+</Column>
+<Column name="usuario_id" id="61E67328-544A-89A1-4D3E-2F51F6F36CBA">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 14:52:25 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40780CEA-D96E-01E6-4489-393C0879E1FA" referredColumn="2A499933-ACA7-DDC8-FDCF-75F87CCB5231"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32E21C18-10CC-0E1E-44A6-1B453FDD1DBA" name="gs_interacoes_chatbot_PK">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 14:15:17 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CDBBBC8-B1F6-8B3A-E537-67F6F0305222"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B0A980F-0D34-866D-A25C-108F1E4AD2E0" name="gs_interacoes_chatbot_FK">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 14:51:56 UTC</createdTime>
+<generatorID>370F8C3C-A648-3B0A-86BA-B2A6263041B6</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D6AED7E-D65D-F2EC-DE7B-F30B22D44C60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB2702BC-351A-FD35-B7A7-539B08731A16" name="gs_interacoes_usuarios_FK">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 14:52:25 UTC</createdTime>
+<generatorID>F3E8E9CB-C5C7-8232-6F01-84063666BE78</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61E67328-544A-89A1-4D3E-2F51F6F36CBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

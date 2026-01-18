@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D5F175BD-3791-27D5-5C7B-8C9E90286B84" name="gs_plataforma">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 12:24:59 UTC</createdTime>
+<generatorID>F68F819D-D991-920F-6680-99B490C88C7D</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<ordsAlias>plataforma</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="plataforma_id" id="9B8CD58A-66A2-EF0D-282C-CA2C1B9CAA33">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 12:24:59 UTC</createdTime>
+<generatorID>59D6D6AA-A32D-0BD4-4BBB-5525F93EDE53</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="plataforma_nome" id="96EFDFC4-DB73-F32C-48E1-D76659408FF8">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 12:24:59 UTC</createdTime>
+<generatorID>1AF71C86-8001-26F4-4BDA-50554062D0A4</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="plataforma_status" id="8C0F3DEF-26AC-9DBC-4BDB-6FF7F812DB9D">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 12:24:59 UTC</createdTime>
+<generatorID>C461E4D3-7CD9-AFFB-D344-F7BF962E7C11</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7253E8D-B198-9244-5B18-B1FD587D2E76" name="gs_plataforma_PK">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 12:24:59 UTC</createdTime>
+<generatorID>CB27D3F2-8154-A78B-FAED-ACC1E7961149</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B8CD58A-66A2-EF0D-282C-CA2C1B9CAA33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

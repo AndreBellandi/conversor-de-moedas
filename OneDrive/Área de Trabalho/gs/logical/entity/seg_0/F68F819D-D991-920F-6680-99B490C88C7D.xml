@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F68F819D-D991-920F-6680-99B490C88C7D" name="plataforma">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 11:32:20 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="13F3B1D2-549C-9753-D07C-E165AD13416C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="plataforma_id" id="59D6D6AA-A32D-0BD4-4BBB-5525F93EDE53">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 11:32:29 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="13F3B1D2-549C-9753-D07C-E165AD13416C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="plataforma_nome" id="1AF71C86-8001-26F4-4BDA-50554062D0A4">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 11:32:54 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="13F3B1D2-549C-9753-D07C-E165AD13416C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="plataforma_status" id="C461E4D3-7CD9-AFFB-D344-F7BF962E7C11">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 11:33:14 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="13F3B1D2-549C-9753-D07C-E165AD13416C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CB27D3F2-8154-A78B-FAED-ACC1E7961149" name="plataforma PK">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 11:32:50 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="13F3B1D2-549C-9753-D07C-E165AD13416C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>59D6D6AA-A32D-0BD4-4BBB-5525F93EDE53</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

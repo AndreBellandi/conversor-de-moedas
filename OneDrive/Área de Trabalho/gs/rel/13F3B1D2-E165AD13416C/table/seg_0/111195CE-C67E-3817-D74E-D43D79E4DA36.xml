@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="111195CE-C67E-3817-D74E-D43D79E4DA36" name="gs_chatbot">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 12:24:59 UTC</createdTime>
+<generatorID>7622CFF3-F8A7-272D-5B73-137B16272046</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<ordsAlias>chatbot</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="chatbot_id" id="F3CE696A-3A4D-7167-1042-9C3318769249">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 12:24:59 UTC</createdTime>
+<generatorID>102F58DD-323A-2372-4746-8F9105CDD0B8</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="chatbot_versao" id="696EA498-AC4E-CFDE-BB7B-6F36EF9646C9">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 12:24:59 UTC</createdTime>
+<generatorID>3FABE5CF-EB77-536B-8C4F-D5E5223CACE6</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="chatbot_status" id="6E05E02F-BD14-3B7E-41B4-038C9FE489CA">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 12:24:59 UTC</createdTime>
+<generatorID>241698D3-1F92-310D-E76B-5FFE38631CD4</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="A" description="ativo"/>
+<valueDef value="I" description="inativo"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="chatbot_nome" id="F0F00308-1542-5E1E-C95E-A5DCD35010A7">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 12:24:59 UTC</createdTime>
+<generatorID>003AB0E0-F526-D926-226F-0A7A78250F8F</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="plataforma_id" id="EDB56057-4E10-499E-48FA-0EC19AAFC728">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 14:55:57 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20335F95-83F5-AC9A-7BDE-3106B3D94073" referredColumn="9B8CD58A-66A2-EF0D-282C-CA2C1B9CAA33"/>
+</associations>
+</Column>
+<Column name="chatbot_status_1" id="55875BA4-81AA-637D-6179-B7CDFFD965B3">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 15:15:14 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="126CF338-60D2-433C-1549-1E58D50D2787" name="gs_chatbot_PK">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 12:24:59 UTC</createdTime>
+<generatorID>370F8C3C-A648-3B0A-86BA-B2A6263041B6</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3CE696A-3A4D-7167-1042-9C3318769249"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67CA21F7-F171-8A80-C3ED-F8C8AA81CFBE" name="gs_ch_plataforma_FK">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 14:55:57 UTC</createdTime>
+<generatorID>CB27D3F2-8154-A78B-FAED-ACC1E7961149</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDB56057-4E10-499E-48FA-0EC19AAFC728"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD367948-A63C-72F6-4910-3D1E4A4858F9" name="gs_recomendacoes">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 14:35:24 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="recomendacao_id" id="D14E98C1-E2AC-A30A-198D-82915CA4E266">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 14:39:24 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="recomendacao_motivo" id="8D584142-1D68-CEAF-1DDB-7765AADF7F48">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 14:39:24 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="recomendacao_data" id="75D32161-3CBD-0B16-840D-71746537B3D6">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 14:39:24 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="chatbot_id" id="1F3CC70D-38BD-3442-F3FE-748FD016A98A">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 15:01:26 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB809B2A-FAB3-BC16-FB3B-6037961B7ED7" referredColumn="F3CE696A-3A4D-7167-1042-9C3318769249"/>
+</associations>
+</Column>
+<Column name="usuario_id" id="3F87826E-2199-4D3E-5E60-40E04A10B993">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 15:07:53 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC40AE7B-6EB1-8607-5AFB-EDFD7D07CCCF" referredColumn="2A499933-ACA7-DDC8-FDCF-75F87CCB5231"/>
+</associations>
+</Column>
+<Column name="trilhas_trilha_id" id="0DBBFEAC-6E03-58F6-D24B-9E1031E32F98">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 15:13:12 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66E6AC19-C776-3B4A-C961-0DBF2387ED41" referredColumn="74D959C9-4CB6-2294-85CE-1A644EE1204D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="797993A8-C79B-315E-7917-4B49CAB7591A" name="gs_recomendacoes_PK">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 14:39:24 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D14E98C1-E2AC-A30A-198D-82915CA4E266"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB90FC37-423F-762D-E15F-9D30F4D19D97" name="gs_re_chatbot_FK">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 15:01:26 UTC</createdTime>
+<generatorID>370F8C3C-A648-3B0A-86BA-B2A6263041B6</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F3CC70D-38BD-3442-F3FE-748FD016A98A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F9007FE-0950-7118-76A0-83E687485A44" name="gs_re_usuarios_FK">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 15:07:53 UTC</createdTime>
+<generatorID>F3E8E9CB-C5C7-8232-6F01-84063666BE78</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F87826E-2199-4D3E-5E60-40E04A10B993"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69D76E9B-6FA9-7CD8-02FE-3B588080784E" name="gs_re_trilhas_FK">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 15:13:12 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DBBFEAC-6E03-58F6-D24B-9E1031E32F98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

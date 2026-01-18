@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9D772984-F878-07CE-1FF3-D8922D46935F" containerWithKeyObject="CD74962F-6FDF-A7E4-BBAE-CF42B685656E" localFKIndex="8B0A980F-0D34-866D-A25C-108F1E4AD2E0" name="gs_interacoes_chatbot_FK">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 14:51:56 UTC</createdTime>
+<generatorID>370F8C3C-A648-3B0A-86BA-B2A6263041B6</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<referredTableLongName>gs_chatbot</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>111195CE-C67E-3817-D74E-D43D79E4DA36</referredTableID>
+<keyObject>126CF338-60D2-433C-1549-1E58D50D2787</keyObject>
+<referredKeyID>126CF338-60D2-433C-1549-1E58D50D2787</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>chatbot_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7EC80E7-5702-2F4C-3DCF-41C443D0C486" name="gs_profissoes">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 12:47:49 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="profissao_id" id="889D0E09-0BF3-150E-CA76-9021952671D9">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 12:50:09 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="profissao_nome" id="D33CE84C-85FF-940C-55AA-3F02CDEF2A0D">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 12:50:09 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="profissao_ramo" id="C4BC07ED-97ED-E061-5EDD-6A9A5E2CD9DB">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 12:50:09 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="profissao_setor" id="0FF0404D-767D-6063-D89C-3097D8D954CE">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 12:50:09 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="807C1609-D7D3-4576-A742-37C1B6D6FAAF" name="gs_profissoes_PK">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 12:50:09 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="889D0E09-0BF3-150E-CA76-9021952671D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

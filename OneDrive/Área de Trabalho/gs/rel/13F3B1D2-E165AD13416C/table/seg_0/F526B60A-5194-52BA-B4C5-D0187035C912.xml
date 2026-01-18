@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F526B60A-5194-52BA-B4C5-D0187035C912" name="gs_modulos_trilhas">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 14:45:45 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mt_id" id="95D027FD-D1E9-16DD-5C59-B0156FD2DDF8">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 14:46:15 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modulo_id" id="A4F5AF63-E830-EAE9-4EE9-05D49076A620">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 14:49:33 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="137D29C0-3F56-61CE-C1CC-B0B643CEE609" referredColumn="F73FD7FE-9BFA-59BE-2A80-C19E53CACBB1"/>
+</associations>
+</Column>
+<Column name="trilha_id" id="26396F79-8D28-0754-009A-724597A51698">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 14:50:26 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E384F9B6-F652-0544-F4D7-E3525398469C" referredColumn="74D959C9-4CB6-2294-85CE-1A644EE1204D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4D37A7A1-9679-83D7-15A8-436002AD34F7" name="gs_modulos_trilhas_PK">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 14:46:15 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95D027FD-D1E9-16DD-5C59-B0156FD2DDF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6246E178-8175-3EB9-D3C8-F74BBEED427A" name="gs_mt_modulos_FK">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 14:49:33 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4F5AF63-E830-EAE9-4EE9-05D49076A620"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2653130B-EB5D-D963-EBBF-A5EAF0992BED" name="gs_mt_trilhas_FK">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 14:50:26 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26396F79-8D28-0754-009A-724597A51698"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

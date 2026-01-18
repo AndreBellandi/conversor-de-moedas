@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66176CB5-19B3-2430-6492-3BD0333E8064" name="gs_usuarios">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 12:24:59 UTC</createdTime>
+<generatorID>6D0B3313-EC0C-5751-01F4-C916E03FCBAB</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<ordsAlias>usuarios</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="usuario_id" id="2A499933-ACA7-DDC8-FDCF-75F87CCB5231">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 12:24:59 UTC</createdTime>
+<generatorID>D3617405-3222-5CA2-BE08-6587A72A18F6</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario_nome" id="B841E64B-0098-11CB-5E0D-3F5A4057858D">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 12:24:59 UTC</createdTime>
+<generatorID>C3C33C0C-D12A-089A-EA8B-108F1B9C2F46</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario_cpf" id="DFA2B3E5-7ED6-7443-C6B4-0C043ED5ADBA">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 12:24:59 UTC</createdTime>
+<generatorID>211A62CB-BD20-FE3C-9C80-4772ADCEE3A1</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario_email" id="EBB6588B-3F46-6043-8236-C2B8380DBB31">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 12:24:59 UTC</createdTime>
+<generatorID>97FB7550-E1E1-0D3D-EA13-32F029FAFC51</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario_senha" id="2F0A4EF1-2A80-C5F3-D528-7F5CD01D2512">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 12:24:59 UTC</createdTime>
+<generatorID>053DE676-B309-5FC1-6D0C-1EEE362D4B2E</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario_progresso" id="FC9BAAFE-241F-8796-849E-41BD5D3F3752">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 12:39:53 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="profissao_id" id="A83B2130-43B7-0FBF-7AAF-8BF72F35BD3A">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 12:57:01 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="424BB86C-5B47-DE62-68CC-4408B690850A" referredColumn="889D0E09-0BF3-150E-CA76-9021952671D9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FDA1FD9C-70AB-03B1-72B6-F9B77A00B220" name="gs_usuarios_PK">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 12:24:59 UTC</createdTime>
+<generatorID>F3E8E9CB-C5C7-8232-6F01-84063666BE78</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A499933-ACA7-DDC8-FDCF-75F87CCB5231"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89C8E46F-00BA-24AE-7739-20D67CEF809A" name="gs_usuario_email_UN">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 12:41:15 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBB6588B-3F46-6043-8236-C2B8380DBB31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0584289-8733-395B-B068-3B41FB47CFCE" name="gs_usuarios_cpf_UN">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 12:45:46 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFA2B3E5-7ED6-7443-C6B4-0C043ED5ADBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="501A6EA2-17AF-C565-B845-C12A9461247A" name="gs_us_profissoes_FK">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 12:57:01 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A83B2130-43B7-0FBF-7AAF-8BF72F35BD3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6D0B3313-EC0C-5751-01F4-C916E03FCBAB" name="usuarios">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 11:23:33 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="13F3B1D2-549C-9753-D07C-E165AD13416C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="usuario_id" id="D3617405-3222-5CA2-BE08-6587A72A18F6">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 11:23:49 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="13F3B1D2-549C-9753-D07C-E165AD13416C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usuario_nome" id="C3C33C0C-D12A-089A-EA8B-108F1B9C2F46">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 11:24:24 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="13F3B1D2-549C-9753-D07C-E165AD13416C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usuario_cpf" id="211A62CB-BD20-FE3C-9C80-4772ADCEE3A1">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 11:25:07 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="13F3B1D2-549C-9753-D07C-E165AD13416C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usuario_email" id="97FB7550-E1E1-0D3D-EA13-32F029FAFC51">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 11:25:34 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="13F3B1D2-549C-9753-D07C-E165AD13416C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usuario_senha" id="053DE676-B309-5FC1-6D0C-1EEE362D4B2E">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 11:26:48 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="13F3B1D2-549C-9753-D07C-E165AD13416C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F3E8E9CB-C5C7-8232-6F01-84063666BE78" name="usuarios PK">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 11:24:02 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="13F3B1D2-549C-9753-D07C-E165AD13416C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D3617405-3222-5CA2-BE08-6587A72A18F6</attributeRef>
+<attributeRef>211A62CB-BD20-FE3C-9C80-4772ADCEE3A1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

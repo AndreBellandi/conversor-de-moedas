@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7622CFF3-F8A7-272D-5B73-137B16272046" name="chatbot">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 11:20:26 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="13F3B1D2-549C-9753-D07C-E165AD13416C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="chatbot_id" id="102F58DD-323A-2372-4746-8F9105CDD0B8">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 11:20:40 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="13F3B1D2-549C-9753-D07C-E165AD13416C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="chatbot_versao" id="3FABE5CF-EB77-536B-8C4F-D5E5223CACE6">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 11:21:10 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="13F3B1D2-549C-9753-D07C-E165AD13416C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="chatbot_status" id="241698D3-1F92-310D-E76B-5FFE38631CD4">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 11:21:37 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="13F3B1D2-549C-9753-D07C-E165AD13416C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="A" description="ativo"/>
+<valueDef value="I" description="inativo"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="chatbot_nome" id="003AB0E0-F526-D926-226F-0A7A78250F8F">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 11:22:16 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="13F3B1D2-549C-9753-D07C-E165AD13416C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="370F8C3C-A648-3B0A-86BA-B2A6263041B6" name="chatbot PK">
+<createdBy>decob</createdBy>
+<createdTime>2025-11-12 11:20:49 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="13F3B1D2-549C-9753-D07C-E165AD13416C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>102F58DD-323A-2372-4746-8F9105CDD0B8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
